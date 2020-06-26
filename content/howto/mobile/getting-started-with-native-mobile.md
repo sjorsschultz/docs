@@ -60,6 +60,12 @@ To view your app on a iOS device, you must download and install the Make It Nati
 
 Viewing your app on a mobile device will allow you to test native features and other aspects of your app. This section is written for mobile devices, but you may use an Android emulator mentioned in the [Prerequisites](#prerequisites) section above. To view your app, follow these steps:
 
+{{% alert type="warning" %}}
+
+Make sure your Project runtime port is not set to 8083, we recommend 8080 (see ![Configuration] (https://docs.mendix.com/refguide/configuration) to avoid connection issues in the Make It Native App and console warnings in Mendix Studio Pro.
+
+{{% /alert %}}
+
 1. Locate your app's QR code in Mendix Studio Pro by clicking the drop-down menu next to the **View** button, then selecting **View in the Mendix App** and navigating to the **Native mobile** tab. Here you will see your test app's QR code.
 2. Start the Make It Native app by tapping its icon on your device.
 3.  Tap the  **Scan a QR Code** button:
